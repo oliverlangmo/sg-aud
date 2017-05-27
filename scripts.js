@@ -23,6 +23,7 @@ var displayEvens = function(){
     outputText = "Here are the even numbers between " + startNum + " and "+ endNum + " by " + step + "'s" ;
     document.getElementById('outputDiv').innerHTML = outputText;
  }
+ 
 
 for (var i = startNum; i < endNum; i+=step) {
   if (i % 2 === 0){
